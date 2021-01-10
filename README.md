@@ -24,5 +24,3 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 <br> 
 
 ## Conclusion :
-
-
