@@ -42,5 +42,10 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 <br> 
 
 ## Conclusion :
+Through the exploration of this dataset and the analysis performed on it we discovered that time of day and temperature are the two most important factors that determine the demand for bicycle rental in Seoul.
+
+Using Xgboost , a well advanced scientific tool, we were able to predict the number of bikes with a relatively high accuracy. We could try several other models to perhaps build better statistical models that more accurately explain the variations caused by different variables.
+
+## API looks like
 
 ![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/api.PNG)
