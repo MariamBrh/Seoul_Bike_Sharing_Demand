@@ -11,6 +11,22 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 
 /!\ Please note that scrolling in the API is not possible, so please use the "Tab" keypad to input your values. The prediction will be displayed at the end of the page, use the "Tab" keypad to see it.
 
+## Data Information
+- Date: day-month-year format
+- Rented Bike count: Count of bikes rented at each hour (target)
+- Hour: Hour of the day
+- Temperature - Celsius
+- Humidity - %
+- Windspeed - m/s
+- Visibility - 10m
+- Dew point temperature - Celsius
+- Solar radiation - MJ/m2
+- Rainfall - mm
+- Snowfall - cm
+- Seasons - Winter, Spring, Summer, Autumn
+- Holiday - Holiday/No holiday
+- Functional Day - No(Non Functional Hours)/Yes(Functional hours)
+
 ## Summary:  
 - Data Cleaning
 - Data Visualization
