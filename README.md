@@ -9,7 +9,7 @@ Paris has its "vélib'" and, for a few years now, Seoul has its equivalent the "
 
 In this report we will study the bicycle **rental data** in Seoul for the year 2018. The objective of our analysis is to discover the factor(s) that determine the demand for self-service bicycle rentals, build statistical models and then try to make rental prediction based on the information and models available to us. Our data mining and analysis will be done in Python.
 
-## This project is implemented in Python:  
+## Summary:  
 - Data Cleaning
 - Data Visualization
 - Data Pre-Processing
@@ -17,7 +17,7 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 - Api
   
  
-## This repositery contains:
+## The repositery contains:
 * The Jupyter Notebook file
 * Slides report of the analysis
 * The Realease of the model within an API 
