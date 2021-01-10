@@ -19,7 +19,7 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
  
 ## The repositery contains:
 * The Jupyter Notebook file
-* Slides report of the analysis
+* Slides of the report of the analysis
 * The Realease of the model within an API 
 <br> 
 
