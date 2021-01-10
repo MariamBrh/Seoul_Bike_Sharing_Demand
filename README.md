@@ -11,7 +11,7 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 
 ## This project is implemented in Python:  
 - Data Cleaning
-- Data Visualisation
+- Data Visualization
 - Data Pre-Processing
 - Modelling
 - Api
