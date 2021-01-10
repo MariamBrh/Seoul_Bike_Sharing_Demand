@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body style="background: #86aba1;">
+ <div class="login">
+	<h2>Seoul Bike Rentals Predictions</h2>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+            <label for="Hour">Hour:</label>
+            <input type="text" name="Hour" placeholder="from 1 to 24" required="required" />
+            <label for="Temperature">Temperature:</label>
+            <input type="text" name="Temperature" placeholder="in °C" required="required" />
+            <label for="Humidity">Humidity:</label>
+            <input type="text" name="Humidity" placeholder="in %" required="required" />
+            <label for="Wind speed">Wind speed:</label>
+            <input type="text" name="Wind speed" placeholder="in m/s" required="required" />
+            <label for="Visibility">Visibility:</label>
+            <input type="text" name="Visibility" placeholder="in (10m)" required="required" />
+            <label for="Solar Radiation">Solar Radiation:</label>
+            <input type="text" name="Solar Radiation" placeholder="in MJ/m2" required="required" />
+            <label for="Rainfall">Rainfall:</label>
+            <input type="text" name="Rainfall" placeholder="in mm" required="required" />
+            <label for="Snowfall">Snowfall:</label>
+            <input type="text" name="Snowfall" placeholder="in cm" required="required" />
+            <label for="Seasons">Seasons:</label>
+            <input list="seasons" id="season" name="Seasons" placeholder="Seasons" required="required" >
+        			<datalist id="seasons">
+        				<option value="Autumn">
+        				<option value="Spring">
+        				<option value="Summer">
+        				<option value="Winter">
+        			</datalist>
+        		</input>
+            <label for="Holiday">Holiday:</label>
+            <input list="holidays" id="holiday" name="Holiday" placeholder="Holiday" required="required" >
+        			<datalist id="holidays">
+        				<option value="Holiday">
+        				<option value="No Holiday">
+        			</datalist>
+        		</input>
+            <label for="Functioning">Functioning Day:</label>
+            <input list="functioningDays" id="functioningDay" name="Functioning" placeholder="Functioning Day" required="required" >
+        			<datalist id="functioningDays">
+        				<option value="Yes">
+        				<option value="No">
+        			</datalist>
+            	</input>
+            <label for="Month">Month:</label>
+            <input list="months" id="month" name="Month" placeholder="Month" required="required" >
+        			<datalist id="months">
+        				<option value="January">
+        				<option value="February">
+        				<option value="March">
+        				<option value="April">
+        				<option value="May">
+        				<option value="June">
+        				<option value="July">
+        				<option value="August">
+        				<option value="September">
+        				<option value="October">
+        				<option value="November">
+        				<option value="December">
+        			</datalist>
+        		</input>
+            <label for="Day">Day:</label>
+            <input type="Day" name="Day" placeholder="number" required="required" />
+            <label for="Year">Year:</label>
+            <input type="text" name="Year" placeholder="number" required="required" />
+            <label for="Weekday">Weekday:</label>
+            <input list="weekdays" id="weekday" name="Weekday" placeholder="Weekday" required="required" >
+        			<datalist id="weekdays">
+        				<option value="Monday">
+        				<option value="Tuesday">
+        				<option value="Wednesday">
+        				<option value="Thursday">
+        				<option value="Friday">
+        				<option value="Saturday">
+        				<option value="Sunday">
+        			</datalist>
+        		</input>
+        
+		<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+    
+    <br>
+    {{ prediction_text }}
+	
+ </div>
+</body>
+
+
+
+</html>
