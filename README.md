@@ -1,7 +1,7 @@
 # Seoul_Bike_Sharing_Demand
 ***Python for Data Analaysis***
 
-![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/thumbnail_VELO.png)
+![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/img/thumbnail_VELO.png)
 
 Seoul is a city spread over more than 600 km2, six times the size of Paris. It is necessary to take precautions when it comes to traveling, especially at peak hours, which generate end less traffic jams in the city's streets.
 
@@ -48,4 +48,4 @@ Using Xgboost , a well advanced scientific tool, we were able to predict the num
 
 ## API looks like
 
-![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/api.PNG)
+![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/img/api.PNG)
