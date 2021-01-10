@@ -25,5 +25,4 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 
 ## Conclusion :
 
-
 ![alt text](https://github.com/MariamBrh/Seoul_Bike_Sharing_Demand/blob/main/api.PNG)
