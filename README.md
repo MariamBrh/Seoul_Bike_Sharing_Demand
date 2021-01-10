@@ -27,7 +27,7 @@ In this report we will study the bicycle **rental data** in Seoul for the year 2
 - Holiday - Holiday/No holiday
 - Functional Day - No(Non Functional Hours)/Yes(Functional hours)
 
-## Summary:  
+## Step of the Prediciton:  
 - Data Cleaning
 - Data Visualization
 - Data Pre-Processing
